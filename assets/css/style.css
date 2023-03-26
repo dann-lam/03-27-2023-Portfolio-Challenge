@@ -1,0 +1,64 @@
+:root {
+
+    --lightest-color: #ebebeb;
+    --light-color: #afafaf;
+    --middle-color: #808080bf;
+    --dark-color: #2e2e2e55;
+    --darkest-color: #161616;
+    --temp-border-viewer: 1px solid white;
+    --font:
+}
+
+body {
+    /* Display Controls */
+    display: flex;
+    justify-content: flex-start;
+    /* Puts body items to the top. */
+    align-items: center;
+    /* Aligns body items to the top center. */
+    flex-direction: column;
+    align-content: center;
+    /* Puts flex direction to a column. */
+
+    /* Border + Background Controls */
+    background-color: var(--darkest-color);
+    border: 1px solid pink;
+    height: 90%;
+    width: 90%;
+}
+
+h1 {
+    /* border: var(--temp-border-viewer); */
+    color: var(--lightest-color);
+    font-family: 'Franklin Gothic Medium';
+    font-size: xx-large;
+    padding: 5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid red;
+    align-content: space-around;
+}
+
+nav {
+    display: flex;
+
+    width: auto;
+    height: auto;
+    border: 1px solid blue;
+}
+
+.main-container {
+    /* Display Controls */
+    display: flex;
+    /* Border + Background Controls */
+    border: 1px solid green;
+    ;
+    background-color: var(--dark-color);
+    /* Width Controls */
+    width: 85%;
+    height: auto;
+}
