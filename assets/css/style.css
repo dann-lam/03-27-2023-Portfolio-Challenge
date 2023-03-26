@@ -1,12 +1,13 @@
 :root {
 
     --lightest-color: #ebebeb;
-    --light-color: #afafaf;
-    --middle-color: #808080bf;
-    --dark-color: #2e2d2d;
-    --darkest-color: #161616;
+    --light-color: #cfcdcd;
+    --middle-color: #6f6f85;
+    --dark-color: #342121;
+    --darkest-color: #1b1a29;
     --temp-border-viewer: 1px solid white;
     --font: 'Franklin Gothic Medium'
+
 }
 
 body {
@@ -29,10 +30,10 @@ body {
     /* Border + Background Controls */
 
     background: radial-gradient(var(--dark-color), var(--darkest-color));
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 
-
-    padding: 2.5%;
+    font-size: larger;
+    padding: 1%;
 }
 
 .main-container {
@@ -44,49 +45,75 @@ body {
     flex-direction: column;
     align-content: center;
     /* Puts flex direction to a column. */
-    margin: 2.5%;
+    margin: auto;
     /* Centers our body with margin. Bad? */
     /* Border + Background Controls */
     /* GREEN CONTROLLER */
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
     /* Width Controls */
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 header {
     display: flex;
     /* flex-direction: row; */
-    justify-content: space-between;
+    justify-content: space-around;
     /* Makes them spaced around*/
     align-items: center;
     /* Centers them in the space container */
     width: 100%;
-    height: auto;
+    height: 50px;
 
     /* RED CONTROLLER */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     padding: 2px;
-    max-height: 75px;
+    max-height: 100px;
+}
+
+#textbold {
+    font-weight: bolder;
 }
 
 h1 {
     /* YELLOW CONTROLLER */
-    border: 1px solid purple;
-    color: var(--lightest-color);
+    /* border: 1px solid yellow; */
+    color: rgba(234, 233, 242, 0.939);
     font-family: var(--font);
     font-size: xx-large;
+    user-select: none;
+}
+
+
+/* a {
+    color: var(--lightest-color);
+    text-decoration: none;
+
+} */
+
+#navbox-links {
+    user-select: none;
+}
+
+#navbox-links a {
+    display: inline-block;
+    color: var(--light-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: smaller;
+    padding: 10px;
+    padding-inline: 17.5px;
+
 }
 
 
 
-nav {
 
+
+#navbox-links a:hover {
     color: var(--lightest-color);
-    width: auto;
-    height: auto;
-    /* BLUE CONTROLLER */
-    border: 1px solid blue;
+    background-color: rgba(83, 74, 137, 0.193);
+    border-radius: 3px;
 }
