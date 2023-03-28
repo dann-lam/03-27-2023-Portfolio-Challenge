@@ -188,7 +188,6 @@ h1 {
     text-align: start;
     word-spacing: 1px;
     text-indent: 35px;
-
 }
 
 #project_section {
@@ -207,19 +206,36 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    ;
+    /* border: 1px solid black; */
 }
 
 .project_image {
+    /* border: 1px solid black; */
     padding: 20px;
     width: 500px;
     height: 275px;
+    object-fit: contain;
+    opacity: var(--darkest-color);
+    filter: brightness(50%) blur(2px);
+    user-select: none;
+}
+
+.project_image_2 {
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 700px;
+    height: 450px;
+    object-fit: contain;
     opacity: var(--darkest-color);
     filter: brightness(50%) blur(2px);
     user-select: none;
 }
 
 .project_image:hover {
+    filter: blur(0px) brightness(100%);
+}
+
+.project_image_2:hover {
     filter: blur(0px) brightness(100%);
 }
 
