@@ -121,7 +121,6 @@ p {
     border-top-right-radius: 7.5px;
     border-bottom-left-radius: 7.5px;
     font-weight: 400;
-
 }
 
 h1 {
@@ -252,4 +251,31 @@ h1 {
     display: flex;
     padding: 25px;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        margin: 60px;
+    }
+
+    .project_image_2 {
+        width: 400px;
+        height: auto;
+    }
+
+    #contact_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #project_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 400px;
+    }
 }
