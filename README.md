@@ -4,10 +4,10 @@
 
 # References
 
-[CSS Data URIs](https://css-tricks.com/data-uris/).
-[Linear Gradient + Offset](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient).
-[Circle Avatar](https://www.w3schools.com/howto/howto_css_image_avatar.asp).
-[CSS Blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur).
+| CSS | [CSS Data URIs](https://css-tricks.com/data-uris/)
+[Linear Gradient + Offset](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
+[Circle Avatar](https://www.w3schools.com/howto/howto_css_image_avatar.asp)
+[CSS Blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur)
 
 ## Description
 
