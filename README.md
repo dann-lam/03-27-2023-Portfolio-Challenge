@@ -23,7 +23,7 @@ Creating links that are also images, creating on hover effects, learning how to 
 
 Semantically, I think the site could use improvements, I'm not 100% clear on how or where to put articles and sections.
 
-All in all, it's an okay site. We built this site because building a portfolio website is an important task for any kidn of web developer.
+All in all, it's an okay site. We built this site because building a portfolio website is an important task for any kind of web developer.
 
 In the future, it would be nice to have some kind of overlay on each image with a label to show what they are.
 
