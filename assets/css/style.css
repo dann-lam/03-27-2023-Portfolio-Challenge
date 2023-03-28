@@ -155,20 +155,25 @@ h1 {
     background-size: cover;
     background-position: top center;
     border-radius: 100%;
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px dotted rgb(255, 255, 255);
     background-color: white;
+    user-select: none;
 }
 
 #about_me_text {
     display: flex;
     flex-direction: column;
-
+    user-select: none;
     text-align: center;
-    width: 50%;
-    height: 90%;
+    width: 300px;
+    margin: 50px;
+    /* border: 1px solid black; */
+    height: auto;
+    max-height: 1200px;
+    max-width: 600px;
 }
 
-#about_me_text_big {
+.text_big {
     font-size: 50px;
     user-select: none;
     color: #cfcdcd08;
@@ -178,7 +183,6 @@ h1 {
 #about_me_text_desc {
     font-size: small;
     font-weight: 10;
-    ;
     display: flex;
     justify-content: flex-start;
     text-align: start;
@@ -187,10 +191,49 @@ h1 {
 
 }
 
+#project_section {
+    /* border: 1px solid white; */
+    width: 1200px;
+    height: auto;
+    padding: 40px;
+
+}
+
+#project_text {
+    text-decoration: underline
+}
+
 #project_container {
-    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    ;
+}
+
+.project_image {
+    padding: 20px;
+    width: 500px;
+    height: 275px;
+    opacity: var(--darkest-color);
+    filter: brightness(50%) blur(2px);
+    user-select: none;
+}
+
+.project_image:hover {
+    filter: blur(0px) brightness(100%);
 }
 
 #contact_container {
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    margin: 40px;
+    padding: 20px;
+    height: auto;
+    width: 500px;
+    text-align: right;
+}
+
+#contact_links {
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
 }
