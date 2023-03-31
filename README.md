@@ -3,11 +3,11 @@
 ​[Link to site.](https://dann-lam.github.io/03-27-2023-Portfolio-Challenge/).
 
 # References
-
-| CSS | [CSS Data URIs](https://css-tricks.com/data-uris/)
-[Linear Gradient + Offset](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
-[Circle Avatar](https://www.w3schools.com/howto/howto_css_image_avatar.asp)
-[CSS Blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur)
+| ------------- |:-------------:|
+| CSS    | [CSS Data URIs](https://css-tricks.com/data-uris/)    |
+| Linear Gradient + Offset    | [Linear Gradient + Offset](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)    |
+| Circle avatar    | [Circle Avatar](https://www.w3schools.com/howto/howto_css_image_avatar.asp)  |
+| CSS Blur    | [CSS Blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur) |
 
 ## Description
 
@@ -29,3 +29,19 @@ In the future, it would be nice to have some kind of overlay on each image with 
 
 
 ---
+## Usage
+Simply click on the links on the top to use
+
+## Learning Points
+
+Positioning of elements was invaluable, practice using Flex + Grid and visualizing the relationshipbetween the objects in the tree.
+
+## Credits
+
+Coffee
+
+## License
+
+MIT LIcense
+
+
