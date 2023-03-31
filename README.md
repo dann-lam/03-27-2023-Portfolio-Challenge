@@ -6,12 +6,12 @@
 | Technology Used         | Resource URL           |
 | ------------- |:-------------:|
 | HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| CSS  URIS   | [https://css-tricks.com/data-uris/](hhttps://css-tricks.com/data-uris/      |
+| CSS  URIS   | [https://css-tricks.com/data-uris/](https://css-tricks.com/data-uris/)      |
 | Git | [https://git-scm.com/](https://git-scm.com/)     |
-| Javascript | [https://www.javascript.com/] (https://www.javascript.com/)      |
-| Linear Gradient + Offset | [https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient] (https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)      |
-| Circle Avatar | [https://www.w3schools.com/howto/howto_css_image_avatar.asp] (https://www.w3schools.com/howto/howto_css_image_avatar.asp)      |
-| CSS Blur | [https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur] (https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur)      |
+| Javascript | [https://www.javascript.com/](https://www.javascript.com/)      |
+| Linear Gradient + Offset | [https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)      |
+| Circle Avatar | [https://www.w3schools.com/howto/howto_css_image_avatar.asp](https://www.w3schools.com/howto/howto_css_image_avatar.asp)      |
+| CSS Blur | [https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur)      |
 
 
 ## Description
